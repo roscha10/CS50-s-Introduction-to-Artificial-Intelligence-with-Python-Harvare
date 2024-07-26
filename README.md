@@ -36,4 +36,17 @@ En las primeras semanas del curso, hemos explorado varios conceptos y proyectos 
 - **Descripción**: Estudio del algoritmo PageRank de Google para clasificar páginas web basadas en su importancia relativa dentro de la red.
 - **Tecnología**: Modelos de probabilidad para interpretar la navegación web.
 
+## Semana 3: Crossword
+
+### Proyecto: Crossword
+- **Descripción**: Desarrollo de un generador de crucigramas que utiliza programación de restricciones y técnicas de backtracking para resolver la disposición óptima de palabras en una cuadrícula.
+- **Detalles Técnicos**:
+  - **Modelado de Variables**: Cada espacio en blanco en la cuadrícula se modela como una variable con atributos específicos para su posición y longitud.
+  - **Restricciones**: Incluyen restricciones unarias que requieren que las palabras se ajusten exactamente a la longitud de las variables y restricciones binarias que requieren coincidencia de letras en las intersecciones.
+  - **Algoritmos Implementados**: 
+    - **Backtracking**: Para explorar sistemáticamente las combinaciones de palabras.
+    - **AC-3**: Para reducir los dominios de las variables asegurando la consistencia antes del backtracking.
+    - **Heurísticas de Selección**: Como la de Mínimos Valores Restantes (MRV) y la heurística de valores menos restrictivos para mejorar la eficiencia del algoritmo.
+- **Resultados Esperados**: Un sistema capaz de completar crucigramas eficientemente, demostrando la aplicación de la IA en la resolución de problemas complejos de satisfacción de restricciones.
+
 Cada proyecto ha reforzado nuestra comprensión de los principios de la inteligencia artificial y ha mejorado nuestra habilidad para aplicar estos conceptos en la solución de problemas complejos.
