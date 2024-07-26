@@ -49,4 +49,20 @@ En las primeras semanas del curso, hemos explorado varios conceptos y proyectos 
     - **Heurísticas de Selección**: Como la de Mínimos Valores Restantes (MRV) y la heurística de valores menos restrictivos para mejorar la eficiencia del algoritmo.
 - **Resultados Esperados**: Un sistema capaz de completar crucigramas eficientemente, demostrando la aplicación de la IA en la resolución de problemas complejos de satisfacción de restricciones.
 
+
+## Semana 4: Compras
+
+### Proyecto: Shopping
+- **Descripción**: Desarrollo de una inteligencia artificial para predecir si los usuarios que navegan en un sitio de compras en línea completarán una compra.
+- **Tecnología**: Utilización del clasificador de vecino más cercano (KNN) para analizar y predecir comportamientos de compra basados en características de sesión de usuario.
+- **Implementación**:
+  - **Análisis de Datos**: Uso de un conjunto de datos que contiene aproximadamente 12,000 sesiones de usuarios, incluyendo información sobre el tipo de páginas visitadas, duración de la visita, tasas de rebote, y más.
+  - **Modelado y Evaluación**: Entrenamiento de un modelo KNN para predecir compras, evaluando el modelo en términos de sensibilidad (tasa de verdaderos positivos) y especificidad (tasa de verdaderos negativos).
+- **Resultados Esperados**:
+  - El modelo busca superar la precisión de una predicción aleatoria, proporcionando insights valiosos sobre los comportamientos de compra, lo que podría ayudar a personalizar la experiencia de compra y mejorar las estrategias de marketing.
+
+### Objetivos de Aprendizaje:
+- Aplicar técnicas de aprendizaje automático para resolver problemas prácticos de negocio.
+- Comprender y manejar las métricas de evaluación para modelos clasificatorios en escenarios de datos desbalanceados.
+
 Cada proyecto ha reforzado nuestra comprensión de los principios de la inteligencia artificial y ha mejorado nuestra habilidad para aplicar estos conceptos en la solución de problemas complejos.
